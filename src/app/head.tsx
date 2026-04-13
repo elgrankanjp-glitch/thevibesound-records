@@ -1,9 +1,8 @@
-﻿export default function Head() {
-  return (
-    <>
-      <meta name="viewport" content="width=device-width,initial-scale=1" />
-      <meta name="theme-color" content="#0f172a" />
-      <link rel="icon" href="/assets/brand" />
-    </>
-  )
+﻿export const metadata = {
+  metadataBase: new URL("http://localhost:3000"),
+  title: "TheVibeSound Records"
+}
+
+export default function Head() {
+  return null
 }
